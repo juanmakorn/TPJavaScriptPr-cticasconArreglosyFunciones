@@ -5,7 +5,5 @@ document.write('<h2>Lista de Meses</h2>')
 document.write('<ul>')
 for(let indiceMes=0;indiceMes<meses.length;indiceMes++){
 document.write(`<li>${meses[indiceMes]}</li>`)
-
 }
-
 document.write('</ul')
